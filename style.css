@@ -135,7 +135,7 @@ background-color: rgba(99, 20, 99, 0.842);
 
 
 }
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
+#sliderBtnNext:hover,
+#sliderBtn:hover {
   background-color: rgba(0, 0, 0, 0.8); /* Üzerine gelince daha belirgin */
 }
