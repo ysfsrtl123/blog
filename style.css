@@ -155,17 +155,26 @@ background-color: rgba(99, 20, 99, 0.842);
   background-color: #343a40; /* Footer arka plan rengi */
 }
 
-@media (max-width: 576px) {
+.footer {
+  background-color: #343a40; /* Footer arka plan rengi */
+}
+
+.btn-md-square {
+  width: 36px; /* Sosyal medya butonlarının boyutunu ayarla */
+  height: 36px;
+}
+
+@media (max-width: 768px) {
   .footer-item {
     text-align: center; /* Mobil görünümde metinleri ortala */
   }
 
-  .btn-md-square {
-    width: 36px; /* Sosyal medya butonlarının boyutunu ayarla */
-    height: 36px;
+  .footer .col-lg-3 {
+    margin-bottom: 20px; /* Mobil görünümde alan bırak */
   }
 
   .position-relative {
     margin-bottom: 1rem; /* Mobil görünümde input alanı için alan yarat */
   }
 }
+
