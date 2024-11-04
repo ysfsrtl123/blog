@@ -151,3 +151,21 @@ background-color: rgba(99, 20, 99, 0.842);
 #linebottom {
     border-bottom: solid 3px rgba(145, 82, 145, 0.842);
 }
+.footer {
+  background-color: #343a40; /* Footer arka plan rengi */
+}
+
+@media (max-width: 576px) {
+  .footer-item {
+    text-align: center; /* Mobil görünümde metinleri ortala */
+  }
+
+  .btn-md-square {
+    width: 36px; /* Sosyal medya butonlarının boyutunu ayarla */
+    height: 36px;
+  }
+
+  .position-relative {
+    margin-bottom: 1rem; /* Mobil görünümde input alanı için alan yarat */
+  }
+}
